@@ -6,6 +6,7 @@ import Exam from './pages/Exam';
 import Department from './pages/Department';
 import Academics from './pages/Academics';
 import About from './pages/About';
+import JuniorCollege from './pages/JuniorCollege';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/department" element ={<Department />} />
                 <Route path="/academics" element ={<Academics />} />
                 <Route path="/about" element ={<About />} />
+                <Route path='/juniorcollege' element ={<JuniorCollege />} />
         </Routes>
         </>
     );
